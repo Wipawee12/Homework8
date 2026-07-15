@@ -53,7 +53,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -176,7 +176,7 @@ https://github.com/Wipawee12/Homework8
 </body>
 
 </html>
-***
+```
 ---
 
 ## About
@@ -191,7 +191,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -295,7 +295,7 @@ https://github.com/Wipawee12/Homework8
 
 </html>
 
-***
+```
 
 ---
 
@@ -311,7 +311,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -429,10 +429,9 @@ https://github.com/Wipawee12/Homework8
 
 </html>
 
-***
 ```
-
 ---
+
 ## Portfolio
 
 **File Name**
@@ -452,124 +451,142 @@ https://github.com/Wipawee12/Homework8
 ### Code
 
 ***
-<!DOCTYPE html>
-<html lang="th">
+    ```html
+    <!DOCTYPE html>
+    <html lang="th">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV | Wipawee Promsuk</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio | Wipawee Promsuk</title>
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<body>
+    <body>
 
-    <!-- Header -->
-    <header>
+        <!-- Header -->
+        <header>
 
-        <div class="container">
+            <div class="container">
 
-            <nav>
+                <nav>
 
-                <h2 class="logo">Wipawee Promsuk</h2>
+                    <h2 class="logo">Wipawee Promsuk</h2>
 
-                <ul>
+                    <ul>
 
-                    <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
 
-                    <li><a href="about.html">About</a></li>
+                        <li><a href="about.html">About</a></li>
 
-                    <li><a class="active" href="cv.html">CV</a></li>
+                        <li><a href="cv.html">CV</a></li>
 
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a class="active" href="portfolio.html">Portfolio</a></li>
 
-                    <li><a href="skills.html">Skills</a></li>
+                        <li><a href="skills.html">Skills</a></li>
 
-                    <li><a href="education.html">Education</a></li>
+                        <li><a href="education.html">Education</a></li>
 
-                    <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
 
-                    <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Contact</a></li>
 
-                </ul>
+                    </ul>
 
-            </nav>
+                </nav>
 
-        </div>
+            </div>
 
-    </header>
+        </header>
 
-    <!-- CV -->
+        <!-- Portfolio -->
 
-    <section class="about-site">
+        <section class="about-site">
 
-        <div class="container">
+            <div class="container">
 
-            <h2>Curriculum Vitae (CV)</h2>
+                <h2>Portfolio / Homework</h2>
 
-            <h3>ข้อมูลส่วนตัว</h3>
+                <p>
+                    ผลงานและการบ้านที่ได้จัดทำในรายวิชา Web Development
+                </p>
 
-            <p>
-                <strong>ชื่อ :</strong> วิภาวี พรมสุข <br>
-                <strong>รหัสนักศึกษา :</strong> 6810301007 <br>
-                <strong>คณะ :</strong> เทคโนโลยีดิจิทัล <br>
-                <strong>สาขา :</strong> วิศวกรรมคอมพิวเตอร์
-            </p>
+                <div class="portfolio-grid">
 
-            <br>
+                    <!-- Homework 5 -->
+                    <div class="portfolio-card">
 
-            <h3>การศึกษา</h3>
+                        <h3>Homework 5</h3>
 
-            <p>
-                • ปัจจุบันกำลังศึกษาระดับปริญญาตรี ชั้นปีที่ 2 <br>
-                คณะเทคโนโลยีดิจิทัล สาขาวิศวกรรมคอมพิวเตอร์
-            </p>
+                        <p>
+                            <strong>User Requirement Specification (URS)</strong><br>
+                            วิเคราะห์ความต้องการของระบบ POS
+                            สำหรับร้าน Golden Place
+                        </p>
 
-            <br>
+                        <a href="files/HW5.pdf" class="btn" target="_blank">
+                            View
+                        </a>
 
-            <h3>Skills</h3>
+                        <a href="files/HW5.pdf" class="btn btn-outline" download>
+                            Download
+                        </a>
 
-            <p>
-                • HTML5 <br>
-                • CSS3 <br>
-                • Python <br>
-                • C++ <br>
-                • Computer Network
-            </p>
+                    </div>
 
-            <br>
+                    <!-- Homework 6 -->
+                    <div class="portfolio-card">
 
-            <h3>ประสบการณ์ / ผลงาน</h3>
+                        <h3>Homework 6</h3>
 
-            <p>
-                • พัฒนาเว็บไซต์ Personal Homepage <br>
-                • ออกแบบฐานข้อมูลด้วย ER Diagram <br>
-                • ตั้งค่า VLAN และ DHCP ด้วย Cisco Packet Tracer
-            </p>
+                        <p>
+                            <strong>UML Diagrams</strong><br>
+                            ออกแบบ Use Case Diagram
+                            สำหรับ Student Portfolio Website
+                        </p>
 
-            <br>
+                        <a href="files/HW6.pdf" class="btn" target="_blank">
+                            View
+                        </a>
 
-            <h3>ช่องทางการติดต่อ</h3>
+                        <a href="files/HW6.pdf" class="btn btn-outline" download>
+                            Download
+                        </a>
 
-            <p>
-                Email : 6810301007@cdti.ac.th <br>
-                Phone : 094-590-8078 <br>
-                GitHub :
-                <a href="https://github.com/Wipawee12/Homework8" target="_blank">
-                    https://github.com/Wipawee12/Homework8
-                </a>
-            </p>
+                    </div>
 
-        </div>
+                    <!-- Homework 7 -->
+                    <div class="portfolio-card">
 
-    </section>
+                        <h3>Homework 7</h3>
 
-</body>
+                        <p>
+                            <strong>IIS Setup</strong><br>
+                            ติดตั้งและ Deploy
+                            Student Portfolio Website บน IIS
+                        </p>
 
-</html>
+                        <a href="files/HW7.pdf" class="btn" target="_blank">
+                            View
+                        </a>
 
-***
+                        <a href="files/HW7.pdf" class="btn btn-outline" download>
+                            Download
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </body>
+
+    </html>
+```
 ---
 
 ## Skills
@@ -591,7 +608,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -694,7 +711,7 @@ https://github.com/Wipawee12/Homework8
 
 </html>
 
-***
+```
 
 ---
 
@@ -713,7 +730,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -812,7 +829,7 @@ https://github.com/Wipawee12/Homework8
 
 </html>
 
-***
+```
 
 ---
 
@@ -828,7 +845,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -926,7 +943,7 @@ https://github.com/Wipawee12/Homework8
 
 </html>
 
-***
+```
 
 ---
 
@@ -949,7 +966,7 @@ https://github.com/Wipawee12/Homework8
 
 ### Code
 
-***
+```html
 <!DOCTYPE html>
 <html lang="th">
 
@@ -1031,7 +1048,7 @@ https://github.com/Wipawee12/Homework8
 
 </html>
 
-***
+```
 
 ---
 
@@ -1045,7 +1062,7 @@ css/style.css
 
 ### Code
 
-***
+```html
 /* ===========================
    RESET
 =========================== */
@@ -1440,7 +1457,7 @@ nav a:hover{
     cursor:pointer;
 }
 
-***
+```
 
 ---
 
